@@ -14,7 +14,7 @@ body{
 .wrapperInicio{
     width: 100vw;
     height: 100vh;
-    background-color: #F5864E;
+    background-color: #e9a380;
     color: #fff;
 }
 
@@ -66,11 +66,9 @@ body{
 .main{
     padding: 40px;
     width: 80vw;
-    margin: 25px auto;
-    height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
+    margin: 0px auto;
+    margin-top: 65px;
+    height: 70vh;
     position: relative;
     background-color:#B5463C;
     border-style: solid;
@@ -79,20 +77,46 @@ body{
     border-color: #0a0a0a;
 }
 
-.main h1{
-    margin-bottom: 50px;
+.main .contenedor_imagen{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.main .infoContent{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;    
+    align-items: center;
+}
+
+.infoContent h1{
+    margin-top: 25%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+.infoContent p{
+    margin-left: 8%;
+}
+
+
 .contenedor_imagen img{
-    margin-left: 150px;
+    width: 50%;
+    height: 80%;
     border-style: solid;
     border-radius:20px;
     border-width: 6px;
     border-color: #0a0a0a;
-    margin-bottom: 10px;
+    display: inline;
 }
-
-
 
 
 
@@ -102,13 +126,14 @@ body{
     width: 100vw;
     height: 100vh;
     position: relative;
-    border: #fff 4px solid;
+    border-top: #000 5px solid;
+    border-bottom: #000 5px solid;
 }
 
 .encabezado{
     width: 100%;
     height: 10%;
-    border-bottom: #fff 4px solid;
+    border-bottom: #000 5px solid;
     color:#fff;
     background-color: #B5463C;
     display: flex;
@@ -125,7 +150,7 @@ body{
     left: 0;
     width: 60%;
     height: 90%;
-    background-color: #D47008 ;
+    background-color: #e9a380 ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -136,7 +161,7 @@ body{
     width: 80%;
     height: 80%;
     border-style: solid;
-    border-width: 6px;
+    border-width: 4px;
     border-radius: 20px;
     margin-top: 40px;
     margin-left: 30px;
@@ -154,7 +179,7 @@ body{
     width: 40%;
     height: 90%;
     background-color: #D47008;
-    border-left: #fff 4px solid;
+    border-left: #000 5px solid;
 }
 
 .contededor_info .informacion{
@@ -173,6 +198,50 @@ body{
 .informacion p{
     margin: 50px;
 }
+
+
+
+.wrapperContacto{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #e9a380;
+}
+
+.headerContacto{
+    background-color:#B5463C;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: #000000 4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContacto h2{
+    text-align: center;
+    color: #fff;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position:absolute;
+    bottom: 0px;
+}
+
+footer p{
+    padding-top: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.imagenFooter{
+    text-align: center;
+    margin: 1%;
+}
+
 
 
 
