@@ -173,6 +173,10 @@ body{
     border-radius:12px;
 }
 
+.galeria img:hover{
+    opacity: 0.6;
+}
+
 .contededor_info{
     position: absolute;
     right: 0;
@@ -200,7 +204,6 @@ body{
 }
 
 
-
 .wrapperContacto{
     width: 100vw;
     height: 100vh;
@@ -223,10 +226,23 @@ body{
     color: #fff;
 }
 
+.contenidoContacto{
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+}
+
+.contenidoContacto img{
+    width: 15vw;
+    margin-top: 20vh;
+}
+
 footer{
     background-color: black;
     width: 100%;
-    height: 200px;
+    height: 20vh;
     position:absolute;
     bottom: 0px;
 }
@@ -239,7 +255,11 @@ footer p{
 
 .imagenFooter{
     text-align: center;
+}
+
+.imagenFooter img{
     margin: 1%;
+    width: 5%;
 }
 
 
