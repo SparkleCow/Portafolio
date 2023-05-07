@@ -9,6 +9,7 @@
 body{
     font-family: 'Comic Neue', cursive;
     overflow-x: hidden;
+    background-color: #D47008;
 }
 
 .wrapperInicio{
@@ -118,10 +119,6 @@ body{
     display: inline;
 }
 
-
-
-
-
 .wrapperGaleria{
     width: 100vw;
     height: 100vh;
@@ -163,8 +160,8 @@ body{
     border-style: solid;
     border-width: 4px;
     border-radius: 20px;
-    margin-top: 40px;
-    margin-left: 30px;
+    background-color: #fff;
+    margin:auto;
 }
 
 .galeria img{
@@ -174,7 +171,7 @@ body{
 }
 
 .galeria img:hover{
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .contededor_info{
@@ -203,6 +200,43 @@ body{
     margin: 50px;
 }
 
+.wrapperGaleria2{
+    width: 100vw;
+    height: 100vh;
+    border-bottom: #000 5px solid;
+}
+
+.galeria2{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    background-color: #e9a380;
+    border-left: #000 5px solid;
+    border-right: #000 5px solid;
+
+}
+
+.ilustraciones2{
+    width: 70%;
+    height: 70%;
+    background-color: #fff;
+    margin: auto;
+    border: #000 5px solid;
+    border-radius: 15px;
+
+}
+
+.ilustraciones2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ilustraciones2 img:hover{
+    opacity: 0.7;
+}
 
 .wrapperContacto{
     width: 100vw;
