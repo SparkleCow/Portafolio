@@ -99,13 +99,23 @@ body{
 }
 
 .infoContent h1{
-    margin-top: 25%;
+    margin-top: 10%;
     margin-bottom: 5%;
     margin-left: 8%;
 }
 
 .infoContent p{
     margin-left: 8%;
+}
+
+.infoContent h2{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 8%;
+}
+
+.infoContent ul{
+    margin-left: 10%;
 }
 
 
